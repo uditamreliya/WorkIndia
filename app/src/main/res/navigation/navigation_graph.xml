@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/verticalListFragment">
+
+    <fragment
+        android:id="@+id/verticalListFragment"
+        android:name="com.example.workindia.ui.view.VerticalListFragment"
+        android:label="fragment_vertical_list"
+        tools:layout="@layout/fragment_vertical_list" />
+    <fragment
+        android:id="@+id/horizontalListFragment"
+        android:name="com.example.workindia.ui.view.HorizontalListFragment"
+        android:label="fragment_horizontal_list"
+        tools:layout="@layout/fragment_horizontal_list" />
+</navigation>
