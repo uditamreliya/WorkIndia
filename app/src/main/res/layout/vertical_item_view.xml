@@ -36,7 +36,6 @@
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_4sdp"
-            android:text="item1"
             android:textColor="@color/black"
             android:textSize="@dimen/_12ssp"
             android:textStyle="bold" />
@@ -48,7 +47,6 @@
             android:layout_below="@+id/tv_item_name"
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_10sdp"
-            android:text="item1"
             android:textColor="@color/black"
             android:textSize="@dimen/_10ssp" />
 
